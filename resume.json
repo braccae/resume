@@ -1,0 +1,255 @@
+{
+  "basics": {
+    "name": "Andrew Scaccetti",
+    "label": "Full-Stack Developer | DevOps Engineer | Data Analyst | Python | JavaScript | Docker | Kubernetes",
+    "email": "business@andrewscaccetti.com",
+    "url": "https://github.com/Braccae",
+    "summary": "Versatile Full-Stack Developer and DevOps Engineer with extensive experience in Python, JavaScript, containerization, and cloud technologies. Proven track record of building scalable web applications, automation tools, and IoT solutions. Skilled in modern frameworks like Astro and FastAPI, with expertise in container orchestration using Docker, podman and Kubernetes. Experience spans from data analysis and visualization to developing APIs, Discord bots, and home automation systems. Passionate about open-source development, system administration, and creating innovative solutions for complex technical challenges.",
+    "location": {
+      "city": "Salisbury",
+      "countryCode": "US",
+      "region": "North Carolina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "andrew-scaccetti-594550142",
+        "url": "https://www.linkedin.com/in/andrew-scaccetti-594550142"
+      },
+      {
+        "network": "GitHub",
+        "username": "Braccae",
+        "url": "https://github.com/Braccae"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Self-employed",
+      "position": "Full-Stack Developer & DevOps Engineer",
+      "startDate": "2011-01-01",
+      "endDate": "",
+      "summary": "Independent developer specializing in full-stack web development, DevOps automation, and IoT solutions",
+      "highlights": [
+        "Developed and maintained multiple web applications using modern frameworks (Astro, FastAPI, Node.js)",
+        "Built containerized applications and microservices using Docker and Kubernetes",
+        "Created automation tools and IoT monitoring systems using Python and MQTT",
+        "Developed APIs for screenshot services, social media integration, and data processing",
+        "Maintained home lab infrastructure with network stack management and backup solutions",
+        "Built Qt-based desktop applications and KDE plugins",
+        "Provides technical consulting and system administration services"
+      ]
+    },
+    {
+      "name": "BOLD PENGUIN",
+      "position": "Customer Success Associate",
+      "startDate": "2020-11-01",
+      "endDate": "2021-04-01",
+      "summary": "Customer Success Associate role at BOLD PENGUIN"
+    },
+    {
+      "name": "Papa John's International",
+      "position": "Delivery Driver",
+      "startDate": "2019-02-01",
+      "endDate": "2020-05-01",
+      "summary": "Delivery Driver in Salisbury, North Carolina",
+      "highlights": [
+        "Delivering orders accurately and in a timely manner",
+        "Taking orders/Sales"
+      ]
+    },
+    {
+      "name": "Sally Beauty",
+      "position": "Beauty Advisor",
+      "startDate": "2018-03-01",
+      "endDate": "2018-10-01",
+      "summary": "Beauty Advisor in Concord, North Carolina",
+      "highlights": [
+        "Used creative problem solving to help customers find products that address their needs",
+        "Processed sales, returns, and exchanges while maintaining excellent customer service",
+        "Won Award for most sales in my district"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Google Data Analytics Certificate",
+      "issuer": "Google"
+    },
+    {
+      "name": "Process Data from Dirty to Clean",
+      "issuer": "Google"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Go",
+        "Shell/Bash",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "Astro",
+        "FastAPI",
+        "Node.js",
+        "React",
+        "RESTful APIs",
+        "WebRTC",
+        "OAuth",
+        "Playwright"
+      ]
+    },
+    {
+      "name": "DevOps & Infrastructure",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Podman",
+        "Docker Compose",
+        "CI/CD",
+        "GitHub Actions",
+        "Linux Administration",
+        "Systemd"
+      ]
+    },
+    {
+      "name": "Databases & Data",
+      "keywords": ["SQLite", "MongoDB", "PostgreSQL", "Data Analysis"]
+    },
+    {
+      "name": "Cloud & Networking",
+      "keywords": [
+        "Cloudflare Workers",
+        "MQTT",
+        "RTSP",
+        "DNS Management",
+        "Backup Solutions",
+        "Restic"
+      ]
+    },
+    {
+      "name": "Desktop Development",
+      "keywords": ["Qt", "KRunner Plugins", "Python GUI"]
+    },
+    {
+      "name": "IoT & Automation",
+      "keywords": [
+        "Computer Vision",
+        "OpenCV",
+        "Home Assistant",
+        "MQTT",
+        "Raspberry Pi",
+        "Sensor Integration"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Unifi",
+        "Caddy",
+        "Discord API",
+        "Bluesky API"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bluesky TikTok Archive Uploader",
+      "description": "Python application to migrate TikTok archive data to Bluesky social platform",
+      "highlights": [
+        "Built SQLite database schema for TikTok archive data import",
+        "Implemented video processing and upload automation",
+        "Created systemd service for scheduled uploads"
+      ],
+      "keywords": [
+        "Python",
+        "SQLite",
+        "API Integration",
+        "Video Processing",
+        "Social Media"
+      ]
+    },
+    {
+      "name": "Washing Machine IoT Monitor",
+      "description": "Computer vision-based washing machine status monitoring system",
+      "highlights": [
+        "Developed OpenCV-based indicator light detection",
+        "MQTT integration for Home Assistant notifications",
+        "Containerized deployment with Docker and Quadlet"
+      ],
+      "keywords": [
+        "Python",
+        "OpenCV",
+        "MQTT",
+        "IoT",
+        "Docker",
+        "Home Automation"
+      ]
+    },
+    {
+      "name": "Screenshot API Service",
+      "description": "FastAPI-based web service for programmatic webpage screenshots",
+      "highlights": [
+        "Built scalable API using FastAPI and Playwright",
+        "Implemented configurable screenshot parameters and WebP optimization",
+        "Containerized for easy deployment and scaling"
+      ],
+      "keywords": [
+        "FastAPI",
+        "Playwright",
+        "API Development",
+        "Docker",
+        "Web Services"
+      ]
+    },
+    {
+      "name": "Personal Website",
+      "description": "Modern static site built with Astro framework",
+      "highlights": [
+        "Developed using Astro with TypeScript",
+        "Implemented performance optimizations and SEO best practices",
+        "Deployed with modern web standards and accessibility features"
+      ],
+      "keywords": [
+        "Astro",
+        "TypeScript",
+        "Web Development",
+        "Static Site Generation"
+      ]
+    },
+    {
+      "name": "Network Infrastructure Stack",
+      "description": "Comprehensive home lab network management solution",
+      "highlights": [
+        "Orchestrated Unifi Network Application with MongoDB backend",
+        "Implemented DNS server with Technitium DNS",
+        "Automated backup system using Restic with Docker integration"
+      ],
+      "keywords": [
+        "Docker Compose",
+        "MongoDB",
+        "DNS",
+        "Network Management",
+        "Backup Automation"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Most Sales in District",
+      "awarder": "Sally Beauty",
+      "summary": "Won Award for most sales in my district"
+    }
+  ]
+}
