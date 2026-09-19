@@ -189,15 +189,15 @@
   "projects": [
     {
       "name": "Bluesky TikTok Archive Uploader",
-      "description": "Python application to migrate TikTok archive data to Bluesky social platform",
+      "description": "A personal Python script to help transfer personal video archives from TikTok to Bluesky",
       "url": "https://github.com/braccae/bluesky_tiktok_archive",
       "startDate": "2025-04-29",
       "endDate": "2025-09-20",
       "type": "application",
       "highlights": [
-        "Built SQLite database schema for TikTok archive data import",
-        "Implemented video processing and upload automation",
-        "Created systemd service for scheduled uploads"
+        "Created a local SQLite schema to parse and store exported TikTok archive files",
+        "Automated sequential video uploads using the Bluesky API",
+        "Set up a systemd service to run batch uploads on a schedule"
       ],
       "keywords": [
         "Python",
@@ -209,15 +209,15 @@
     },
     {
       "name": "Washing Machine IoT Monitor",
-      "description": "Computer vision-based washing machine status monitoring system",
+      "description": "A small home automation project using a webcam and computer vision to check laundry status",
       "url": "https://github.com/braccae/washing_machine_sensor",
       "startDate": "2025-04-17",
       "endDate": "2026-05-13",
       "type": "application",
       "highlights": [
-        "Developed OpenCV-based indicator light detection",
-        "MQTT integration for Home Assistant notifications",
-        "Containerized deployment with Docker and Quadlet"
+        "Used OpenCV to detect status light changes on a home washing machine",
+        "Sent MQTT notifications to Home Assistant when cycles finished",
+        "Packaged into a container using Docker and Podman Quadlet for home lab use"
       ],
       "keywords": [
         "Python",
@@ -230,15 +230,15 @@
     },
     {
       "name": "Screenshot API Service",
-      "description": "FastAPI-based web service for programmatic webpage screenshots",
+      "description": "A self-hosted HTTP service to capture and save webpage screenshots",
       "url": "https://github.com/braccae/screenshot_api",
       "startDate": "2025-03-05",
       "endDate": "2025-03-05",
       "type": "application",
       "highlights": [
-        "Built scalable API using FastAPI and Playwright",
-        "Implemented configurable screenshot parameters and WebP optimization",
-        "Containerized for easy deployment and scaling"
+        "Built endpoints with FastAPI and Playwright to render pages headlessly",
+        "Added basic controls for dimensions, full-page capture, and WebP compression",
+        "Containerized with Docker to run on a local home server"
       ],
       "keywords": [
         "FastAPI",
@@ -250,15 +250,15 @@
     },
     {
       "name": "Personal Website",
-      "description": "Modern static site built with Astro framework",
+      "description": "Personal homepage and portfolio site built with Astro",
       "url": "https://andrewscaccetti.com",
       "startDate": "2023-11-20",
       "endDate": "2026-05-25",
       "type": "website",
       "highlights": [
-        "Developed using Astro with TypeScript",
-        "Implemented performance optimizations and SEO best practices",
-        "Deployed with modern web standards and accessibility features"
+        "Built with Astro and TypeScript using a clean, static design",
+        "Set up simple styling and basic accessibility improvements",
+        "Maintained responsive layout across mobile and desktop views"
       ],
       "keywords": [
         "Astro",
@@ -269,15 +269,15 @@
     },
     {
       "name": "Network Infrastructure Stack",
-      "description": "Comprehensive home lab network management solution",
+      "description": "Home lab configuration files and compose stacks for basic network services",
       "url": "https://github.com/braccae/ansible-tf-compose",
       "startDate": "2024-09-07",
       "endDate": "2025-02-26",
       "type": "infrastructure",
       "highlights": [
-        "Orchestrated Unifi Network Application with MongoDB backend",
-        "Implemented DNS server with Technitium DNS",
-        "Automated backup system using Restic with Docker integration"
+        "Ran local Unifi Network Application alongside a MongoDB instance",
+        "Configured Technitium DNS for local network name resolution and ad blocking",
+        "Set up simple automated backups to remote storage using Restic"
       ],
       "keywords": [
         "Docker Compose",
@@ -289,15 +289,15 @@
     },
     {
       "name": "Tailscale DERP Relay Server Container",
-      "description": "Minimal, secure scratch container for Tailscale's DERP relay server with automated ACME TLS provisioning",
+      "description": "A small scratch container build for self-hosting Tailscale's DERP relay server",
       "url": "https://github.com/braccae/ts-derp",
       "startDate": "2026-09-10",
       "endDate": "2026-09-15",
       "type": "application",
       "highlights": [
-        "Built multi-stage build compiling a statically linked Go binary on a minimal scratch base image with root CA certificates",
-        "Implemented native ACME and Let's Encrypt TLS automation for zero-touch certificate renewal",
-        "Configured automated vulnerability scanning and dependency updates via GitHub Actions and Dependabot"
+        "Compiled a static Go derper binary inside a minimal scratch container with system root certificates",
+        "Used derper's built-in ACME support for automatic Let's Encrypt certificates",
+        "Maintained dependencies and base builds with automated GitHub Actions workflows"
       ],
       "keywords": [
         "Go",
@@ -311,15 +311,15 @@
     },
     {
       "name": "Scanner Clipper",
-      "description": "Computer vision utility to automatically detect, extract, clean, and crop individual photographs from flatbed scanner batch scans",
+      "description": "A Python helper tool to crop and split multiple photos from flatbed scanner images",
       "url": "https://github.com/braccae/scanner_clipper",
       "startDate": "2026-05-16",
       "endDate": "2026-09-04",
       "type": "application",
       "highlights": [
-        "Engineered automated boundary detection to segment multiple photos from high-resolution batch scans",
-        "Implemented morphological noise reduction algorithms to eliminate scanner bed dust artifacts",
-        "Automated rotation correction, rounded-corner handling, and borderless cropping"
+        "Used OpenCV contour detection to locate individual prints from a multi-photo scan",
+        "Applied basic morphological filters to clean up dust specks on the scanner bed",
+        "Automated cropping and rotation adjustments to save manual editing time"
       ],
       "keywords": [
         "Python",
@@ -331,15 +331,15 @@
     },
     {
       "name": "FFXIV Data Collector",
-      "description": "Real-time telemetry and travel log collector in Go connecting to Advanced Combat Tracker (ACT) WebSocket",
+      "description": "A personal utility in Go to record game events from an ACT WebSocket stream",
       "url": "https://github.com/braccae/ffxiv_data_collector",
       "startDate": "2026-06-25",
       "endDate": "2026-09-18",
       "type": "application",
       "highlights": [
-        "Engineered real-time WebSocket client in Go to ingest combat telemetry and travel log events from ACT OverlayPlugin",
-        "Structured and parsed multi-event data streams for persistent database storage",
-        "Implemented concurrent event handling and database connection management"
+        "Connected to the ACT OverlayPlugin WebSocket to listen for combat and travel logs",
+        "Parsed incoming JSON messages and saved zone history to a database",
+        "Handled basic connection reconnects and simple database persistence"
       ],
       "keywords": [
         "Go",
@@ -352,15 +352,15 @@
     },
     {
       "name": "Custom Caddy Web Server Build",
-      "description": "Production-hardened custom Caddy build with Layer 4 load balancing, dynamic DNS, and security plugins",
+      "description": "A customized Caddy build tailored for home server routing and local services",
       "url": "https://github.com/braccae/caddy",
       "startDate": "2025-04-26",
       "endDate": "2026-09-17",
       "type": "application",
       "highlights": [
-        "Integrated Layer 4 TCP/UDP proxy capabilities with caddy-l4 for high-performance reverse proxying",
-        "Configured caddy-security for unified authentication and access control policies",
-        "Automated dynamic DNS updates with Cloudflare and JSON schema configuration validation"
+        "Compiled Caddy with select community plugins including caddy-l4 and caddy-security",
+        "Configured Cloudflare dynamic DNS integration for home IP updates",
+        "Used Caddy's automated HTTPS management to handle local and external certificates"
       ],
       "keywords": [
         "Caddy",
@@ -374,15 +374,15 @@
     },
     {
       "name": "Send to Nextcloud Talk Extension",
-      "description": "Browser extension allowing users to instantly send highlighted text, links, or web pages into Nextcloud Talk chats",
+      "description": "A lightweight browser extension to quickly forward links or text to a Nextcloud Talk chat",
       "url": "https://github.com/braccae/send_to_nextcloud_talk",
       "startDate": "2024-07-14",
       "endDate": "2024-07-17",
       "type": "application",
       "highlights": [
-        "Built cross-browser extension using standard WebExtensions API and vanilla JavaScript",
-        "Integrated context menu handlers to dispatch links and selected text to Nextcloud Talk conversations",
-        "Implemented configuration management for secure room tokens and API credentials"
+        "Created a simple WebExtension in vanilla JavaScript for personal everyday use",
+        "Added context menu entries to push selected text or the active page URL",
+        "Stored room credentials locally to post via Nextcloud Talk's REST API"
       ],
       "keywords": [
         "JavaScript",
@@ -394,15 +394,15 @@
     },
     {
       "name": "Flytrap Twitch-to-Discord TTS Bot",
-      "description": "Discord bot that captures highlighted Twitch chat messages and reads them into voice channels using Piper neural TTS",
+      "description": "A hobby Discord bot that reads highlighted Twitch chat messages into a voice channel",
       "url": "https://github.com/braccae/flytrap",
       "startDate": "2024-01-20",
       "endDate": "2024-07-08",
       "type": "application",
       "highlights": [
-        "Connected Twitch IRC and Eventsub messaging with Discord voice channels in Python",
-        "Integrated Piper neural text-to-speech for local, fast speech synthesis without external cloud dependencies",
-        "Built queueing and playback synchronization to ensure uninterrupted audio streaming"
+        "Listened to Twitch chat messages and piped highlighted text to a Discord voice connection",
+        "Integrated Piper TTS for local, self-hosted text-to-speech without cloud costs",
+        "Packaged as a lightweight script running on home hardware"
       ],
       "keywords": [
         "Python",
@@ -415,15 +415,15 @@
     },
     {
       "name": "Universalis Sheets Lookup",
-      "description": "Google Apps Script custom functions querying Universalis and XIVAPI for real-time marketboard pricing across world servers",
+      "description": "A Google Sheets helper function to look up in-game market prices in Final Fantasy XIV",
       "url": "https://github.com/braccae/universalis_sheets_lookup",
       "startDate": "2023-03-26",
       "endDate": "2023-03-26",
       "type": "application",
       "highlights": [
-        "Developed custom spreadsheet formula =UNIVERSALIS() in JavaScript for Google Sheets",
-        "Aggregated cross-world market data to find cheapest listings across Final Fantasy XIV data centers",
-        "Integrated REST APIs with error handling and response parsing for seamless spreadsheet calculations"
+        "Wrote a custom =UNIVERSALIS() formula in JavaScript using Google Apps Script",
+        "Fetched price listings from the community-run Universalis and XIVAPI services",
+        "Helped compare item prices across different world servers directly in spreadsheets"
       ],
       "keywords": [
         "JavaScript",
@@ -435,15 +435,15 @@
     },
     {
       "name": "RuneScape Dragonwilds Dedicated Server Container",
-      "description": "Containerized dedicated server for RuneScape: Dragonwilds with SteamCMD automation",
+      "description": "A Docker container setup to easily run a dedicated server for RuneScape: Dragonwilds",
       "url": "https://github.com/braccae/runescape_dragonwilds_dedicated_server_docker",
       "startDate": "2026-06-07",
       "endDate": "2026-09-18",
       "type": "application",
       "highlights": [
-        "Engineered automated container image pulling dedicated game server assets via SteamCMD at build time",
-        "Optimized for lightweight execution under Podman and Docker container engines",
-        "Implemented volume persistency for server saves and runtime configurations"
+        "Created a Containerfile based on steamcmd to download and run server files automatically",
+        "Configured persistent volume mounts for save files and server configurations",
+        "Tested for running under Podman and Docker on a local Linux box"
       ],
       "keywords": [
         "Docker",
