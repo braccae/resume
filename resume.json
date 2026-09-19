@@ -3,8 +3,8 @@
     "name": "Andrew Scaccetti",
     "label": "Full-Stack Developer | DevOps Engineer | Data Analyst | Python | JavaScript | Docker | Kubernetes",
     "email": "business@andrewscaccetti.com",
-    "url": "https://github.com/Braccae",
-    "summary": "Versatile Full-Stack Developer and DevOps Engineer with extensive experience in Python, JavaScript, containerization, and cloud technologies. Proven track record of building scalable web applications, automation tools, and IoT solutions. Skilled in modern frameworks like Astro and FastAPI, with expertise in container orchestration using Docker, podman and Kubernetes. Experience spans from data analysis and visualization to developing APIs, Discord bots, and home automation systems. Passionate about open-source development, system administration, and creating innovative solutions for complex technical challenges.",
+    "url": "https://andrewscaccetti.com",
+    "summary": "Full-stack developer and homelab enthusiast with practical experience in Python, JavaScript, and Linux system administration. Enjoys building simple web applications with Astro and FastAPI, automating everyday tasks with Python and MQTT, and self-hosting services using Docker and Podman. Focused on writing readable code, learning new tools, and finding straightforward solutions to technical problems.",
     "location": {
       "city": "Salisbury",
       "countryCode": "US",
@@ -26,17 +26,16 @@
   "work": [
     {
       "name": "Self-employed",
-      "position": "Full-Stack Developer & DevOps Engineer",
+      "position": "Independent Developer",
       "startDate": "2011-01-01",
-      "summary": "Independent developer specializing in full-stack web development, DevOps automation, and IoT solutions",
+      "summary": "Independent work focusing on personal projects, small web tools, homelab infrastructure, and automation scripts",
       "highlights": [
-        "Developed and maintained multiple web applications using modern frameworks (Astro, FastAPI, Node.js)",
-        "Built containerized applications and microservices using Docker and Kubernetes",
-        "Created automation tools and IoT monitoring systems using Python and MQTT",
-        "Developed APIs for screenshot services, social media integration, and data processing",
-        "Maintained home lab infrastructure with network stack management and backup solutions",
-        "Built Qt-based desktop applications and KDE plugins",
-        "Provides technical consulting and system administration services"
+        "Built and maintained personal web applications and APIs using Astro, FastAPI, and Node.js",
+        "Containerized local services with Docker and Podman for reliable homelab hosting",
+        "Created small Python automations and monitoring scripts using MQTT and OpenCV",
+        "Managed personal server network configuration, local DNS, and automated backups using Restic",
+        "Developed simple desktop utilities, browser extensions, and community Discord bots",
+        "Assisted with technical setup, troubleshooting, and basic system administration"
       ]
     },
     {
