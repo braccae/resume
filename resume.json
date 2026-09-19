@@ -78,6 +78,30 @@
     {
       "name": "Process Data from Dirty to Clean",
       "issuer": "Google"
+    },
+    {
+      "name": "The Legend of Python",
+      "date": "2026-03-20",
+      "issuer": "Codédex",
+      "url": "https://www.credential.net/14543ce2-0230-4915-81ca-f02c133fe8a2"
+    },
+    {
+      "name": "The Origins I: HTML",
+      "date": "2026-01-15",
+      "issuer": "Codédex",
+      "url": "https://www.credential.net/ce2ec75c-abdf-4243-b136-fc37e6ada386"
+    },
+    {
+      "name": "The Origins II: CSS",
+      "date": "2026-01-15",
+      "issuer": "Codédex",
+      "url": "https://www.credential.net/50992aa7-b967-4c0e-b4c0-b6776bd7b985"
+    },
+    {
+      "name": "The Origins III: JavaScript",
+      "date": "2026-01-22",
+      "issuer": "Codédex",
+      "url": "https://www.credential.net/19c82d8b-04ba-44e9-afe7-4c2f53fa1f53"
     }
   ],
   "skills": [
