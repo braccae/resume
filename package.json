@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build:themes": "node build-themes.js",
     "export": "node export.js"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "jsonresume-theme-government-standard": "^0.2.4",
     "jsonresume-theme-paper-plus-plus": "^0.6.0",
     "jsonresume-theme-typewriter-modern": "^1.1.4",
+    "puppeteer": "^23.11.1",
     "resume-cli": "^3.7.3"
   },
   "allowScripts": {
