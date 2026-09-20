@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "export": "node export.js"
+  },
   "dependencies": {
     "@jsonresume/ats-validator": "^0.3.0",
     "@jsonresume/core": "^0.3.2",
