@@ -1,10 +1,13 @@
 {
+  "meta": {
+    "theme": "executive-slate"
+  },
   "basics": {
     "name": "Andrew Scaccetti",
-    "label": "Full-Stack Developer | DevOps Engineer | Data Analyst | Python | JavaScript | Docker | Kubernetes",
+    "label": "Full-Stack Developer & Homelab Engineer | Python • TypeScript • Docker • FastAPI • Linux",
     "email": "business@andrewscaccetti.com",
     "url": "https://andrewscaccetti.com",
-    "summary": "Full-stack developer and homelab enthusiast with practical experience in Python, JavaScript, and Linux system administration. Enjoys building simple web applications with Astro and FastAPI, automating everyday tasks with Python and MQTT, and self-hosting services using Docker and Podman. Focused on writing readable code, learning new tools, and finding straightforward solutions to technical problems.",
+    "summary": "Full-stack developer and homelab engineer with 7 years of practical experience spanning web application development, Linux system administration, and automation. Builds performant backend services with FastAPI and Astro, containerizes distributed homelab workloads with Docker and Podman, and engineers event-driven automations using Python, MQTT, and OpenCV. Grounded in a strong hardware and troubleshooting foundation, with a focus on writing clean, maintainable code and self-hosting resilient infrastructure.",
     "location": {
       "city": "Salisbury",
       "countryCode": "US",
@@ -26,16 +29,25 @@
   "work": [
     {
       "name": "Self-employed",
-      "position": "Independent Developer",
-      "startDate": "2011-01-01",
-      "summary": "Independent work focusing on personal projects, small web tools, homelab infrastructure, and automation scripts",
+      "position": "Independent Developer / Homelab Engineer",
+      "startDate": "2019-01-01",
+      "summary": "Architecting and maintaining containerized homelab infrastructure, web applications, and automation pipelines.",
       "highlights": [
-        "Built and maintained personal web applications and APIs using Astro, FastAPI, and Node.js",
-        "Containerized local services with Docker and Podman for reliable homelab hosting",
-        "Created small Python automations and monitoring scripts using MQTT and OpenCV",
-        "Managed personal server network configuration, local DNS, and automated backups using Restic",
-        "Developed simple desktop utilities, browser extensions, and community Discord bots",
-        "Assisted with technical setup, troubleshooting, and basic system administration"
+        "Architect and maintain containerized self-hosted environments using Docker, Podman Quadlets, and reverse proxies (Caddy), implementing automated backups with Restic",
+        "Build and deploy full-stack web applications and automation services using Python, TypeScript, and modern API architectures",
+        "Engineer event-driven automations and telemetry pipelines using MQTT, OpenCV, and Home Assistant",
+        "Configure local DNS resolution, network routing, and automated TLS certificate management via ACME"
+      ]
+    },
+    {
+      "name": "Self-employed",
+      "position": "Freelance Computer Technician & Technical Support",
+      "startDate": "2011-01-01",
+      "endDate": "2019-01-01",
+      "summary": "Provided hardware, software, and networking support for residential and small-business clients.",
+      "highlights": [
+        "Diagnosed and resolved hardware, software, and networking issues for residential and small-business clients across Windows and Linux environments",
+        "Performed custom PC builds, system recovery, data migration, malware remediation, and home network installations"
       ]
     },
     {
@@ -43,17 +55,21 @@
       "position": "Customer Success Associate",
       "startDate": "2020-11-01",
       "endDate": "2021-04-01",
-      "summary": "Customer Success Associate role at BOLD PENGUIN"
+      "summary": "Assisted small business owners with navigating commercial insurance options, customer inquiries, and application intake.",
+      "highlights": [
+        "Pre-screened small business clients to assess coverage requirements across general liability, professional liability, workers' compensation, commercial auto, and property insurance",
+        "Executed high-accuracy data entry and application submission through the digital exchange platform to match clients with underwriting carriers",
+        "Provided dedicated customer support, addressing client inquiries regarding policy types, documentation requirements, and submission status"
+      ]
     },
     {
       "name": "Papa John's International",
       "position": "Delivery Driver",
       "startDate": "2019-02-01",
       "endDate": "2020-05-01",
-      "summary": "Delivery Driver in Salisbury, North Carolina",
+      "summary": "Managed time-sensitive delivery logistics and customer order intake with high accuracy.",
       "highlights": [
-        "Delivering orders accurately and in a timely manner",
-        "Taking orders/Sales"
+        "Delivered orders accurately and promptly while assisting with customer phone orders and sales"
       ]
     },
     {
@@ -61,11 +77,9 @@
       "position": "Beauty Advisor",
       "startDate": "2018-03-01",
       "endDate": "2018-10-01",
-      "summary": "Beauty Advisor in Concord, North Carolina",
+      "summary": "Provided client consultations and processed sales transactions, earning district recognition.",
       "highlights": [
-        "Used creative problem solving to help customers find products that address their needs",
-        "Processed sales, returns, and exchanges while maintaining excellent customer service",
-        "Won Award for most sales in my district"
+        "Utilized consultative problem solving to match customer needs, winning award for most sales in district"
       ]
     }
   ],
@@ -75,30 +89,6 @@
       "issuer": "Coursera",
       "date": "2022-05-22",
       "url": "https://www.credly.com/badges/055948a6-2d9b-47c1-9586-44e6209e1a95/public_url"
-    },
-    {
-      "name": "The Legend of Python",
-      "date": "2026-03-20",
-      "issuer": "Codédex",
-      "url": "https://www.credential.net/14543ce2-0230-4915-81ca-f02c133fe8a2"
-    },
-    {
-      "name": "The Origins I: HTML",
-      "date": "2026-01-15",
-      "issuer": "Codédex",
-      "url": "https://www.credential.net/ce2ec75c-abdf-4243-b136-fc37e6ada386"
-    },
-    {
-      "name": "The Origins II: CSS",
-      "date": "2026-01-15",
-      "issuer": "Codédex",
-      "url": "https://www.credential.net/50992aa7-b967-4c0e-b4c0-b6776bd7b985"
-    },
-    {
-      "name": "The Origins III: JavaScript",
-      "date": "2026-01-22",
-      "issuer": "Codédex",
-      "url": "https://www.credential.net/19c82d8b-04ba-44e9-afe7-4c2f53fa1f53"
     }
   ],
   "skills": [
@@ -185,116 +175,15 @@
   ],
   "projects": [
     {
-      "name": "Bluesky TikTok Archive Uploader",
-      "description": "A personal Python script to help transfer personal video archives from TikTok to Bluesky",
-      "url": "https://github.com/braccae/bluesky_tiktok_archive",
-      "startDate": "2025-04-29",
-      "endDate": "2025-09-20",
-      "type": "application",
-      "highlights": [
-        "Created a local SQLite schema to parse and store exported TikTok archive files",
-        "Automated sequential video uploads using the Bluesky API",
-        "Set up a systemd service to run batch uploads on a schedule"
-      ],
-      "keywords": [
-        "Python",
-        "SQLite",
-        "API Integration",
-        "Video Processing",
-        "Social Media"
-      ]
-    },
-    {
-      "name": "Washing Machine IoT Monitor",
-      "description": "A small home automation project using a webcam and computer vision to check laundry status",
-      "url": "https://github.com/braccae/washing_machine_sensor",
-      "startDate": "2025-04-17",
-      "endDate": "2026-05-13",
-      "type": "application",
-      "highlights": [
-        "Used OpenCV to detect status light changes on a home washing machine",
-        "Sent MQTT notifications to Home Assistant when cycles finished",
-        "Packaged into a container using Docker and Podman Quadlet for home lab use"
-      ],
-      "keywords": [
-        "Python",
-        "OpenCV",
-        "MQTT",
-        "IoT",
-        "Docker",
-        "Home Automation"
-      ]
-    },
-    {
-      "name": "Screenshot API Service",
-      "description": "A self-hosted HTTP service to capture and save webpage screenshots",
-      "url": "https://github.com/braccae/screenshot_api",
-      "startDate": "2025-03-05",
-      "endDate": "2025-03-05",
-      "type": "application",
-      "highlights": [
-        "Built endpoints with FastAPI and Playwright to render pages headlessly",
-        "Added basic controls for dimensions, full-page capture, and WebP compression",
-        "Containerized with Docker to run on a local home server"
-      ],
-      "keywords": [
-        "FastAPI",
-        "Playwright",
-        "API Development",
-        "Docker",
-        "Web Services"
-      ]
-    },
-    {
-      "name": "Personal Website",
-      "description": "Personal homepage and portfolio site built with Astro",
-      "url": "https://andrewscaccetti.com",
-      "startDate": "2023-11-20",
-      "endDate": "2026-05-25",
-      "type": "website",
-      "highlights": [
-        "Built with Astro and TypeScript using a clean, static design",
-        "Set up simple styling and basic accessibility improvements",
-        "Maintained responsive layout across mobile and desktop views"
-      ],
-      "keywords": [
-        "Astro",
-        "TypeScript",
-        "Web Development",
-        "Static Site Generation"
-      ]
-    },
-    {
-      "name": "Network Infrastructure Stack",
-      "description": "Home lab configuration files and compose stacks for basic network services",
-      "url": "https://github.com/braccae/ansible-tf-compose",
-      "startDate": "2024-09-07",
-      "endDate": "2025-02-26",
-      "type": "infrastructure",
-      "highlights": [
-        "Ran local Unifi Network Application alongside a MongoDB instance",
-        "Configured Technitium DNS for local network name resolution and ad blocking",
-        "Set up simple automated backups to remote storage using Restic"
-      ],
-      "keywords": [
-        "Docker Compose",
-        "MongoDB",
-        "DNS",
-        "Network Management",
-        "Backup Automation"
-      ]
-    },
-    {
       "name": "Tailscale DERP Relay Server Container",
-      "description": "A small scratch container build for self-hosting Tailscale's DERP relay server",
+      "description": "Hardened, minimal scratch container build for self-hosting a low-latency Tailscale DERP relay server",
       "url": "https://github.com/braccae/ts-derp",
       "startDate": "2026-09-10",
       "endDate": "2026-09-15",
       "type": "application",
       "highlights": [
-        "Compiled a static Go derper binary inside a minimal scratch container with system root certificates",
-        "Used derper's built-in ACME support for automatic Let's Encrypt certificates",
-        "Maintained dependencies and base builds with automated GitHub Actions workflows"
+        "Engineered a minimal multi-stage Go scratch container, drastically reducing image footprint while embedding root certificates and automated Let's Encrypt TLS renewal via ACME",
+        "Maintained dependencies and multi-architecture base builds with automated GitHub Actions CI/CD workflows"
       ],
       "keywords": [
         "Go",
@@ -307,57 +196,15 @@
       ]
     },
     {
-      "name": "Scanner Clipper",
-      "description": "A Python helper tool to crop and split multiple photos from flatbed scanner images",
-      "url": "https://github.com/braccae/scanner_clipper",
-      "startDate": "2026-05-16",
-      "endDate": "2026-09-04",
-      "type": "application",
-      "highlights": [
-        "Used OpenCV contour detection to locate individual prints from a multi-photo scan",
-        "Applied basic morphological filters to clean up dust specks on the scanner bed",
-        "Automated cropping and rotation adjustments to save manual editing time"
-      ],
-      "keywords": [
-        "Python",
-        "OpenCV",
-        "Computer Vision",
-        "Pillow",
-        "Image Processing"
-      ]
-    },
-    {
-      "name": "FFXIV Data Collector",
-      "description": "A personal utility in Go to record game events from an ACT WebSocket stream",
-      "url": "https://github.com/braccae/ffxiv_data_collector",
-      "startDate": "2026-06-25",
-      "endDate": "2026-09-18",
-      "type": "application",
-      "highlights": [
-        "Connected to the ACT OverlayPlugin WebSocket to listen for combat and travel logs",
-        "Parsed incoming JSON messages and saved zone history to a database",
-        "Handled basic connection reconnects and simple database persistence"
-      ],
-      "keywords": [
-        "Go",
-        "WebSocket",
-        "ACT",
-        "APIs",
-        "Database Management",
-        "Telemetry"
-      ]
-    },
-    {
       "name": "Custom Caddy Web Server Build",
-      "description": "A customized Caddy build tailored for home server routing and local services",
+      "description": "Custom Caddy reverse proxy incorporating Cloudflare DNS-01 validation, Layer 4 proxying, and security middleware",
       "url": "https://github.com/braccae/caddy",
       "startDate": "2025-04-26",
       "endDate": "2026-09-17",
       "type": "application",
       "highlights": [
-        "Compiled Caddy with select community plugins including caddy-l4 and caddy-security",
-        "Configured Cloudflare dynamic DNS integration for home IP updates",
-        "Used Caddy's automated HTTPS management to handle local and external certificates"
+        "Compiled a custom Caddy reverse proxy incorporating Cloudflare DNS-01 validation, Layer 4 proxying, and security middleware for automated dynamic DNS and encrypted SSL termination",
+        "Streamlined HTTPS routing and automated certificate lifecycle management across local network and external endpoints"
       ],
       "keywords": [
         "Caddy",
@@ -370,36 +217,155 @@
       ]
     },
     {
-      "name": "Send to Nextcloud Talk Extension",
-      "description": "A lightweight browser extension to quickly forward links or text to a Nextcloud Talk chat",
-      "url": "https://github.com/braccae/send_to_nextcloud_talk",
-      "startDate": "2024-07-14",
-      "endDate": "2024-07-17",
+      "name": "Washing Machine IoT Monitor",
+      "description": "Edge-based computer vision monitoring service using OpenCV to track appliance cycles in real time",
+      "url": "https://github.com/braccae/washing_machine_sensor",
+      "startDate": "2025-04-17",
+      "endDate": "2026-05-13",
       "type": "application",
       "highlights": [
-        "Created a simple WebExtension in vanilla JavaScript for personal everyday use",
-        "Added context menu entries to push selected text or the active page URL",
-        "Stored room credentials locally to post via Nextcloud Talk's REST API"
+        "Developed an edge-based computer vision monitoring service using OpenCV to track appliance state changes in real time, publishing telemetry via MQTT to Home Assistant",
+        "Containerized service deployment using Docker and Podman Quadlets for autonomous, resilient operation on homelab infrastructure"
       ],
       "keywords": [
-        "JavaScript",
-        "WebExtensions",
-        "Nextcloud Talk",
-        "REST API",
-        "Browser Extension"
+        "Python",
+        "OpenCV",
+        "MQTT",
+        "IoT",
+        "Docker",
+        "Home Automation"
+      ]
+    },
+    {
+      "name": "Screenshot API Service",
+      "description": "Self-hosted REST API service for headless browser webpage rendering and screenshot capture",
+      "url": "https://github.com/braccae/screenshot_api",
+      "startDate": "2025-03-05",
+      "endDate": "2025-03-05",
+      "type": "application",
+      "highlights": [
+        "Built RESTful endpoints with FastAPI and Playwright to render dynamic client-side web pages headlessly",
+        "Engineered fine-grained capture controls for viewport dimensions, full-page scrolling, and WebP compression",
+        "Containerized deployment with Docker to optimize resource efficiency on a local server"
+      ],
+      "keywords": [
+        "FastAPI",
+        "Playwright",
+        "API Development",
+        "Docker",
+        "Web Services"
+      ]
+    },
+    {
+      "name": "FFXIV Data Collector",
+      "description": "High-throughput telemetry ingestion service in Go capturing real-time game state via WebSocket streams",
+      "url": "https://github.com/braccae/ffxiv_data_collector",
+      "startDate": "2026-06-25",
+      "endDate": "2026-09-18",
+      "type": "application",
+      "highlights": [
+        "Engineered a concurrent Go client to consume high-frequency JSON telemetry streams from the ACT OverlayPlugin WebSocket",
+        "Parsed structured combat, zone transitions, and player travel logs with persistent database storage",
+        "Implemented automatic connection recovery, backoff logic, and graceful shutdown handling"
+      ],
+      "keywords": [
+        "Go",
+        "WebSocket",
+        "ACT",
+        "APIs",
+        "Database Management",
+        "Telemetry"
+      ]
+    },
+    {
+      "name": "Scanner Clipper",
+      "description": "Computer vision tool to automatically detect, segment, and crop individual prints from multi-photo scans",
+      "url": "https://github.com/braccae/scanner_clipper",
+      "startDate": "2026-05-16",
+      "endDate": "2026-09-04",
+      "type": "application",
+      "highlights": [
+        "Implemented OpenCV contour detection algorithms to identify and isolate individual photographic prints from flatbed scans",
+        "Applied morphological filtering and thresholding to eliminate dust artifacts and scanner bed noise",
+        "Automated rotation correction, border cropping, and lossless export, eliminating manual editing overhead"
+      ],
+      "keywords": [
+        "Python",
+        "OpenCV",
+        "Computer Vision",
+        "Pillow",
+        "Image Processing"
+      ]
+    },
+    {
+      "name": "Personal Website",
+      "description": "High-performance portfolio website built with Astro, TypeScript, and modern component design",
+      "url": "https://andrewscaccetti.com",
+      "startDate": "2023-11-20",
+      "endDate": "2026-05-25",
+      "type": "website",
+      "highlights": [
+        "Architected a responsive static web application with Astro and TypeScript for near-instant page loads",
+        "Implemented modern typography, WCAG accessibility standards, and fluid responsive layouts across viewports"
+      ],
+      "keywords": [
+        "Astro",
+        "TypeScript",
+        "Web Development",
+        "Static Site Generation"
+      ]
+    },
+    {
+      "name": "Network Infrastructure Stack",
+      "description": "Declarative homelab compose stacks and orchestration configs for core network services",
+      "url": "https://github.com/braccae/ansible-tf-compose",
+      "startDate": "2024-09-07",
+      "endDate": "2025-02-26",
+      "type": "infrastructure",
+      "highlights": [
+        "Orchestrated local Unifi Network Controller alongside a dedicated MongoDB persistent instance",
+        "Configured Technitium DNS for local network authoritative name resolution and network-wide ad blocking",
+        "Engineered automated encrypted backups to offsite remote storage using Restic"
+      ],
+      "keywords": [
+        "Docker Compose",
+        "MongoDB",
+        "DNS",
+        "Network Management",
+        "Backup Automation"
+      ]
+    },
+    {
+      "name": "Bluesky TikTok Archive Uploader",
+      "description": "Automated media migration pipeline to parse local video archives and batch-upload to the Bluesky network",
+      "url": "https://github.com/braccae/bluesky_tiktok_archive",
+      "startDate": "2025-04-29",
+      "endDate": "2025-09-20",
+      "type": "application",
+      "highlights": [
+        "Designed a normalized SQLite schema to index and query exported video metadata and media assets",
+        "Automated rate-limited sequential video uploads using the Bluesky / AT Protocol API",
+        "Configured a dedicated systemd service for reliable scheduled batch processing"
+      ],
+      "keywords": [
+        "Python",
+        "SQLite",
+        "API Integration",
+        "Video Processing",
+        "Social Media"
       ]
     },
     {
       "name": "Flytrap Twitch-to-Discord TTS Bot",
-      "description": "A hobby Discord bot that reads highlighted Twitch chat messages into a voice channel",
+      "description": "Real-time voice synthesis bot routing highlighted Twitch chat messages into Discord voice channels",
       "url": "https://github.com/braccae/flytrap",
       "startDate": "2024-01-20",
       "endDate": "2024-07-08",
       "type": "application",
       "highlights": [
-        "Listened to Twitch chat messages and piped highlighted text to a Discord voice connection",
-        "Integrated Piper TTS for local, self-hosted text-to-speech without cloud costs",
-        "Packaged as a lightweight script running on home hardware"
+        "Integrated Twitch IRC and Discord Gateway to capture and stream highlighted chat messages into active voice channels",
+        "Integrated the Piper neural TTS engine for low-latency, self-hosted text-to-speech without cloud dependency",
+        "Packaged and deployed as a lightweight background service running on local Linux infrastructure"
       ],
       "keywords": [
         "Python",
@@ -411,16 +377,35 @@
       ]
     },
     {
+      "name": "Send to Nextcloud Talk Extension",
+      "description": "Cross-browser WebExtension for instant sharing of URLs and selected text to Nextcloud Talk conversations",
+      "url": "https://github.com/braccae/send_to_nextcloud_talk",
+      "startDate": "2024-07-14",
+      "endDate": "2024-07-17",
+      "type": "application",
+      "highlights": [
+        "Developed a cross-browser extension in vanilla JavaScript leveraging WebExtension APIs",
+        "Added contextual right-click menu actions to capture selected text or active tab URLs and post to Nextcloud Talk REST APIs",
+        "Engineered secure local client storage for API authorization tokens and room identifiers"
+      ],
+      "keywords": [
+        "JavaScript",
+        "WebExtensions",
+        "Nextcloud Talk",
+        "REST API",
+        "Browser Extension"
+      ]
+    },
+    {
       "name": "Universalis Sheets Lookup",
-      "description": "A Google Sheets helper function to look up in-game market prices in Final Fantasy XIV",
+      "description": "Google Apps Script integration providing real-time commodity pricing and cross-market analysis",
       "url": "https://github.com/braccae/universalis_sheets_lookup",
       "startDate": "2023-03-26",
       "endDate": "2023-03-26",
       "type": "application",
       "highlights": [
-        "Wrote a custom =UNIVERSALIS() formula in JavaScript using Google Apps Script",
-        "Fetched price listings from the community-run Universalis and XIVAPI services",
-        "Helped compare item prices across different world servers directly in spreadsheets"
+        "Engineered custom =UNIVERSALIS() formulas in JavaScript using Google Apps Script to interface with community market APIs",
+        "Aggregated cross-world market board data to compare commodity margins and pricing velocity directly in spreadsheets"
       ],
       "keywords": [
         "JavaScript",
@@ -432,15 +417,14 @@
     },
     {
       "name": "RuneScape Dragonwilds Dedicated Server Container",
-      "description": "A Docker container setup to easily run a dedicated server for RuneScape: Dragonwilds",
+      "description": "Containerized game server environment featuring automated build workflows and persistent state management",
       "url": "https://github.com/braccae/runescape_dragonwilds_dedicated_server_docker",
       "startDate": "2026-06-07",
       "endDate": "2026-09-18",
       "type": "application",
       "highlights": [
-        "Created a Containerfile based on steamcmd to download and run server files automatically",
-        "Configured persistent volume mounts for save files and server configurations",
-        "Tested for running under Podman and Docker on a local Linux box"
+        "Engineered an automated container build utilizing SteamCMD to pull, validate, and execute server binaries",
+        "Configured persistent volume mounts for game saves and server configurations with Podman and Docker compatibility"
       ],
       "keywords": [
         "Docker",

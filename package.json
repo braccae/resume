@@ -14,5 +14,14 @@
     "jsonresume-theme-paper-plus-plus": "^0.6.0",
     "jsonresume-theme-typewriter-modern": "^1.1.4",
     "resume-cli": "^3.7.3"
+  },
+  "allowScripts": {
+    "puppeteer@23.11.1": true,
+    "core-js@2.6.12": true,
+    "core-js@3.43.0": true
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
   }
 }
