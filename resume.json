@@ -72,11 +72,9 @@
   "certificates": [
     {
       "name": "Google Data Analytics Certificate",
-      "issuer": "Google"
-    },
-    {
-      "name": "Process Data from Dirty to Clean",
-      "issuer": "Google"
+      "issuer": "Coursera",
+      "date": "2022-05-22",
+      "url": "https://www.credly.com/badges/055948a6-2d9b-47c1-9586-44e6209e1a95/public_url"
     },
     {
       "name": "The Legend of Python",
