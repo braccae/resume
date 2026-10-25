@@ -17,7 +17,7 @@
     "jsonresume-theme-government-standard": "^0.2.4",
     "jsonresume-theme-paper-plus-plus": "^0.6.0",
     "jsonresume-theme-typewriter-modern": "^1.1.4",
-    "puppeteer": "^25.11.0",
+    "puppeteer": "^25.16.0",
     "resume-cli": "^3.7.3"
   },
   "allowScripts": {
