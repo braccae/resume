@@ -9,7 +9,7 @@
     "@jsonresume/jobs": "^0.17.0",
     "@jsonresume/schema": "^1.3.1",
     "jsonresume-theme-art-deco": "^0.2.5",
-    "jsonresume-theme-brutalist": "^0.2.5",
+    "jsonresume-theme-brutalist": "^0.2.6",
     "jsonresume-theme-claude": "^1.0.0",
     "jsonresume-theme-community-garden": "^0.1.6",
     "jsonresume-theme-even": "^0.26.1",
